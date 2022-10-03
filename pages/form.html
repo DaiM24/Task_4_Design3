@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contact MDHL</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="logo animation" src="../assets/Logo_MDHL.png" alt="Logo" width="120">
+            <h1>Mighty Ducks Hockey League</h1>
+            <a href="../index.html">HOME</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./contact.html">CONTACT</a>
+            <a href="./rules.html">RULES</a>
+            <a href="./games.html">GAMES</a>
+            <a href="./form.html">FORM</a>
+        </nav>
+        <h2 class="style-h2">Form</h2>
+    </header>
+    <main class="container-flex">
+        
+        <div class="container-form-2">
+            <h3 class="title-form">Registration Form</h3>
+            <div class="container-items">
+                <form action="../show_data.html" method="get">
+                    <div class="grid-1">
+                        <div class="item1">
+                            <div class="item-flex">
+                                <label for="First_Name" class="label-width">Player's First Name:</label>
+                                <input type="text" id="First_Name" name="First_Name" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <div class="item-flex">
+                                <label for="Last_Name">Last Name:</label>
+                                <input type="text" id="Last_Name" name="Last_Name" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item3">
+                            <div class="item-flex">
+                                <label for="Address">Street Address:</label>
+                                <input type="text" id="Address" name="Addess" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <div class="item-flex">
+                                <label for="City">City:</label>
+                                <input type="text" id="City" name="City" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <div class="item-flex">
+                                <label for="Zip_Code">Zip Code:</label>
+                                <input type="number" id="Zip_Code" name="Zip_Code" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <div class="item-flex">
+                                <label for="Birth_Date">Birth Date:</label>
+                                <input type="date" id="Birth_Date" name="Birth_Date" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <div>
+                                <label for="gener">Gener:</label>
+                                <input type="radio" id="female" name="Gener" value="female">
+                                <label for="female" class="space-form1">Female</label>
+                                <input type="radio" id="male" name="Gener" value="male">
+                                <label for="male" class="space-form1">Male</label>
+                                <input type="radio" id="Prefer not to say" name="Gener" value="Prefer not to say">
+                                <label for="noySay" class="space-form1">Prefer not to say</label>
+                            </div>
+                        </div>
+                        <div class="item3">
+                            <div>
+                                <label for="Grade">Grade:</label>
+                                <input type="radio" id="preSchool" name="Pre_School" value="Pre School" required>
+                                <label for="preSchool" class="space-form2">Pre-School</label>
+                                <input type="radio" id="1st" name="Grade" value="1st" required>
+                                <label for="first" class="space-form2"><sup>1st</sup></label>
+                                <input type="radio" id="2nd" name="Grade" value="2nd" required>
+                                <label for="first" class="space-form2"><sup>2nd</sup></label >
+                                <input type="radio" id="3nd" name="Grade" value="3nd" required>
+                                <label for="first" class="space-form2"><sup>3rd</sup></label>
+                                <input type="radio" id="4th" name="Grade" value="4th" required>
+                                <label for="first" class="space-form2"><sup>4th</sup></label>
+                                <input type="radio" id="5th" name="Grade" value="5th" required>
+                                <label for="first" class="space-form2"><sup>5th</sup></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-2">
+                        <div class="item4">
+                            <h3>Which elementary school do you live near</h3>
+                        </div>
+                        <div class="item4">
+                            <h4>Closest School:</h4>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="radio" id="AJ_Katzenmaier" name="School" value="AJ Katzenmaier" required> AJ Katzenmaier</li>
+                                <li><input type="radio" id="Greenbay" name="School" value="Greenbay" required> Greenbay</li>
+                                <li><input type="radio" id="Howard_A_Yeager" name="School" value="Howard A Yeager" required> Howard A Yeager</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="radio" id="Marjorie_P_Hart" name="School" value="Marjorie P Hart" required> Marjorie P Hart</li>
+                                <li><input type="radio" id="North_Elementary" name="School" value="North Elementary" required> North Elementary</li>
+                                <li><input type="radio" id="South_Elementary" name="School" value="South Elementary" required> South Elementary</li>
+                            </ul>
+                        </div>
+                        <div class="item4">
+                            <h3>What position(s) do you normally play? (check all that apply)</h3>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="checkbox" id="Forward" name="Position_play" value="Forward"> Forward</li>
+                                <li><input type="checkbox" id="Defense" name="Position_play" value="Defense"> Defense</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="checkbox" id="Midfield" name="Position_play" value="Midfield"> Midfield</li>
+                                <li><input type="checkbox" id="Goalkeeper" name="Position_play" value="Goalkeeper"> Goalkeeper</li>
+                            </ul>
+                        </div>
+                        <div class="item4">
+                            <h3>Unifor Size:</h3>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="checkbox" id="Youth_Small" name="Size" value="Youth Small"> Youth Small</li>
+                                <li><input type="checkbox" id="Youth_Medium" name="Size" value="Youth Medium"> Youth Medium</li>
+                                <li><input type="checkbox" id="Youth_Large" name="Size" value="Youth_Large"> Youth Large</li>
+                                <li><input type="checkbox" id="Small" name="Size" value="Small"> Small</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-form">
+                                <li><input type="checkbox" id="Medium" name="Size" value="Medium"> Medium</li>
+                                <li><input type="checkbox" id="Large" name="Size" value="Large"> Large</li>
+                                <li><input type="checkbox" id="Extra-Large" name="Size" value="Extra-Large"> Extra-Large</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-1">
+                        <div>
+                            <h3 class="item3">Permission to Play</h3>
+                        </div>
+                        <div class="item3">
+                            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                                rules of the
+                                Migth Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with
+                                hockey and in
+                                consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby
+                                realise,
+                                discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,
+                                including the
+                                facilities used for practices and games, against any claim by or on behalf of the registrant as a result
+                                of the
+                                registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,
+                                which
+                                transportation.
+                            </p>
+                            <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, also
+                                acknowl lendge that I
+                                have read the cancellation policy and agree to its terms.
+                            </p>
+                        </div>
+                        <div class="item3">
+                            <div>
+                               <p>Entering  their name below, they are hereby authorizing the form.</p> 
+                            </div>
+                        </div>
+                        <div class="item3">
+                            <div class="item-flex">
+                                <label for="parentOrGuardian">Full name:</label>
+                                <input type="text" id="Parent_Guardian" name="Parent_Guardian" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item3">
+                            <div class="item-flex">
+                                <label for="Parent_Guardian">Date:</label>
+                                <input type="Date" id="Date" name="Date" class="input-width" required>
+                            </div>
+                        </div>
+                        <div class="item3">
+                            <button>SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
